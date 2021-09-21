@@ -1,0 +1,53 @@
+@import './alignments.css';
+@import './buttons.css';
+@import './texts.css';
+@import './forms.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+input:focus {
+  outline:none;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid rgba(27, 26, 52, 0.29);
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 0px;
+  top: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
+}

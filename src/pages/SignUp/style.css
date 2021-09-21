@@ -1,0 +1,15 @@
+.form-sign-up {
+    justify-content: space-between;
+    width: 700px;
+    height: auto;
+}
+
+.body-sign-up {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.body-sign-up div{
+    margin: 0px 10px;    
+}
